@@ -20,7 +20,6 @@ function App() {
     const result = await axios.get('/todo');
     setTodolist(result.data);
     //console.log(todolist);
-    
   }
 
   const checkTodo = async(tf) => {
