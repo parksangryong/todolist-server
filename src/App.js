@@ -19,6 +19,11 @@ function App() {
   const getTodo = async() => {
     const result = await axios.get('/todo');
     //console.log(result);
+    const alist = result.data
+    const aobj = {num : 4, todo : '예시', date : '2023-06-20', complete : 0}
+    alist.push(aobj)
+
+    console.log(alist)
     setTodolist(result.data);
     //console.log(todolist);
     
