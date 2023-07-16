@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "http://localhost:8001/",
+  "proxy": "https://port-0-todolist-node-kvmh2mljl31rz6.sel4.cloudtype.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
